@@ -11,8 +11,8 @@ export default function Form() {
   }
 
   return (
-    <div>
-      <div className="form">
+    <div className="form">
+      <div className="form__container">
         <div className="form__inpt--area">
           <input type="text" placeholder="Enter top text" />
           <input type="text" placeholder="Enter bottom text" />
