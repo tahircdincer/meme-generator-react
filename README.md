@@ -6,3 +6,4 @@
 
 https://cpsgnrtr-tahircdincer.netlify.app/
 
+' Any recommendation on the ' app ' is appreciated. '
