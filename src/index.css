@@ -1,13 +1,66 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  cursor: pointer;
+}
+
+/* Navbar */
+
+.nav {
+  letter-spacing: 0.3rem;
+  font-size: 2rem;
+  background-image: linear-gradient(90deg, #cab2f6ff 0%, #71c4ffff 100%);
+  color: white;
+  text-align: center;
+  padding-block: 0.3rem;
+}
+
+/* Form */
+
+.app__form--container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: flex-start;
+  max-width: 75%;
+}
+.form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-block: 5rem;
+}
+.form__inpt--area {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+input {
+  padding-block: 0.5rem;
+  text-align: center;
+  width: 50%;
+  outline: 0;
+}
+
+button {
+  width: 100%;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(90deg, #b38ffaff 0%, #71c4ffff 100%);
+  padding: 1rem 0.75rem;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
 }
