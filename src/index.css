@@ -48,6 +48,9 @@ input {
   text-align: center;
   width: 50%;
   outline: 0;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
 button {
